@@ -72,20 +72,20 @@ class Game extends React.Component {
               />
           </resources>
           <scene ref='scene'>
-            <perspectiveCamera
-              name='camera'
-              ref='camera'
-              fov={75}
-              aspect={width / height}
-              near={0.1}
-              far={1000}
-
-              position={new Vector3(150, 30, 30)}
-              lookAt={new Vector3(-80, -200, -100)}
-              />
             <group
               position={new Vector3(0, -290, 0)}
               scale={new Vector3(0.5, 0.5, 0.5)}>
+              <perspectiveCamera
+                name='camera'
+                ref='camera'
+                fov={75}
+                aspect={width / height}
+                near={0.1}
+                far={1000}
+
+                position={new Vector3(150, 30, 30)}
+                lookAt={new Vector3(-80, -200, -100)}
+                />
               <group
                 scale={new Vector3(20, 20, 20)}
                 position={new Vector3(0, -200, 0)}

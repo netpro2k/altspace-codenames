@@ -5,9 +5,9 @@ import Lobby from './components/lobby.js'
 import Game from './components/game.js'
 
 const routes = (
-<Route path='/'>
+<Route path='/codenames'>
 	<IndexRoute component={Lobby} />
-	<Route path='/:seed' component={Game} />
+	<Route path='/codenames/:seed' component={Game} />
 </Route>
 )
 

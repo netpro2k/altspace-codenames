@@ -10,7 +10,7 @@ export default class Lobby extends React.Component {
 
   handleNewGame(e) {
     e.preventDefault()
-    window.location.href = '/' + this.state.seed
+    window.location.href += '/' + this.state.seed
   }
 
   handleSeedChange(e) {
