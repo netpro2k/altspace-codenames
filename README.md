@@ -1,3 +1,4 @@
+![screenshot](http://d.pr/i/AYiS+)
 # AltspaceVR Codenames
 This is an experiment in using react-three-renderer within Altspace. It is a simple version of the [Codwords tabletop game ](https://boardgamegeek.com/boardgame/178900/codenames). You can read the rules [here](http://czechgames.com/files/rules/codenames-rules-en.pdf). Note that the word list is very limited as this is mostly intended as a technical experiment.
 
