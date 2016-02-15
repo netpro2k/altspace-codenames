@@ -1,0 +1,17 @@
+body {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+canvas {
+  cursor: pointer;
+}
+
+.spymaster-view {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  text-align: center;
+}
