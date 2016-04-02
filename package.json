@@ -27,7 +27,7 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
-    "altspace": "AltspaceVR/AltspaceSDK#c8d8806ac",
+    "altspace": "^0.6.0",
     "classnames": "^2.2.3",
     "css-wipe": "^4.1.2",
     "lodash": "^3.10.1",
