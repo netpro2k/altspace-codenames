@@ -18,10 +18,7 @@ module.exports = {
     }
   ]},
   resolve: {
-    extensions: ['', '.js', '.jsx', '.css'],
-    alias: {
-      'altspace': __dirname + '/node_modules/altspace/dist/altspace.js'
-    }
+    extensions: ['', '.js', '.jsx', '.css']
   },
   devServer: {
     historyApiFallback: true,

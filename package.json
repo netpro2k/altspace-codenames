@@ -21,14 +21,13 @@
     "eslint-config-standard-react": "^1.2.1",
     "eslint-plugin-react": "^3.16.1",
     "eslint-plugin-standard": "^1.3.1",
-    "imports-loader": "^0.6.5",
     "react-hot-loader": "^1.3.0",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
-    "altspace": "^0.4.0",
+    "altspace": "AltspaceVR/AltspaceSDK#c8d8806ac",
     "classnames": "^2.2.3",
     "css-wipe": "^4.1.2",
     "lodash": "^3.10.1",
@@ -42,7 +41,7 @@
     "redux-promise": "^0.5.1",
     "redux-thunk": "^1.0.3",
     "seededshuffle": "^0.1.1",
-    "three": "^0.73.0"
+    "three": "^0.73.0",
     "react-three-renderer": "netpro2k/react-three-renderer"
   }
 }

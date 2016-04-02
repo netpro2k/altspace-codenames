@@ -1,4 +1,4 @@
-const altspace = window.altspace
+import altspace from 'altspace'
 
 export const CARD_TYPES = {
   INNOCENT: 'I',

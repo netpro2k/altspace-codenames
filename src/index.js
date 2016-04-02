@@ -7,10 +7,6 @@ import { Provider } from 'react-redux'
 import { createStore, applyMiddleware, compose } from 'redux'
 import thunkMiddleware from 'redux-thunk'
 
-import THREE from 'three'
-window.THREE = THREE
-import 'imports?THREE=three!altspace'
-
 import reducers from './reducers'
 import routes from './routes.js'
 
