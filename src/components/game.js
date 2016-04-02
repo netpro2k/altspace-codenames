@@ -73,8 +73,7 @@ class Game extends React.Component {
           </resources>
           <scene ref='scene'>
             <group
-              position={new Vector3(0, -290, 0)}
-              scale={new Vector3(0.5, 0.5, 0.5)}>
+              position={new Vector3(0, 0, 0)}>
               <perspectiveCamera
                 name='camera'
                 ref='camera'
